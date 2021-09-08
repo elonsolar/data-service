@@ -8,6 +8,7 @@ require (
 	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
 	google.golang.org/grpc v1.40.0
 	proto v0.0.1
+	pkg v0.0.1
 )
 
 replace pkg v0.0.1 => ../pkg

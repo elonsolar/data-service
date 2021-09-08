@@ -42,7 +42,7 @@ func (r *Resolver) Close() {
 }
 
 // Build to resolver.Resolver
-func (r *Resolver) Build(target resolver.Target, cc resolver.ClientConn, opts resolver.BuildOption) (resolver.Resolver, error) {
+func (r *Resolver) Build(target resolver.Target, cc resolver.ClientConn, opts resolver.BuildOptions) (resolver.Resolver, error) {
 	var err error
 
 	r.cli, err = clientv3.New(clientv3.Config{
